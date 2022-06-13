@@ -8,20 +8,21 @@
 }
 body{
     /* background-color: #ecf1f9; */
-    background-color: #212529;;
+    background-color: #212529;
     color: #FFFFFF;
 font-family:'Inconsolata';}
 .menu{
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
+    background-color: #212529;
 }
 .menu > ul > li >a {
     text-decoration: none;
     font-size: 25px;
     color: white;
 }
-.menu > ul > li >a:hover{
+.menu > ul > li >a:hover, .heading-dropdown:hover{
     color:#00A4BD;
 }
 .menu > ul > li {
@@ -89,3 +90,9 @@ font-family:'Inconsolata';}
   .logo > p> span{
       color:#00A4BD;
   }
+
+  /* Another part */
+.my_pic{
+    width: 50%;
+    height: 100%;
+}
